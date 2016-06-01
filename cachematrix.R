@@ -1,6 +1,6 @@
 ## function makeCacheMatrix sets up a list which contains 4 elements. The first one makes a call to set function to set a matrix, 
 ## the second one get,gets the matrix, the third and fourth one set and get the inverse of the matrix
-## the second function cachesolve creates the invserse of the matrix
+## the second function cachesolve creates the inverse of the matrix
 
 ## This function creates a list of elements which sets and gets a matrix and its inverse
 
@@ -17,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function will accept the the matrix created by the first function as input
+## and will determine its inverse to return it to calling environment
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
